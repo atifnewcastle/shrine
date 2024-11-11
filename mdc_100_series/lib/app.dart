@@ -27,7 +27,7 @@ class ShrineApp extends StatelessWidget {
       title: 'Shrine',
       initialRoute: '/login',
       routes: {
-        '/login': (BuildContext context) => const LoginPage(),
+        '/home': (BuildContext context) => const LoginPage(),
         // TODO: Change to a Backdrop with a HomePage frontLayer (104)
         '/': (BuildContext context) => const HomePage(),
         // TODO: Make currentCategory field take _currentCategory (104)
